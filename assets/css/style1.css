@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #e4e2e2;
+}
+
+#nav_item_of_navbar {
+  font-weight: bold;
+  color: #4e4d4d;
+}
+
+#white_cover {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  background-image: url("https://flevix.com/wp-content/uploads/2020/01/Bounce-Bar-Preloader-1.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#please_wait {
+  position: absolute;
+  left: 50%;
+  top: 64%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-weight: bold;
+  color: #044d04;
+}
+
+#content {
+  display: none;
+}
+
+.btn-success, .btn-danger, .btn-primary {
+  border-radius: 0px !important;
+}
+
+#home_page_login_register {
+  width: 24rem;
+  height: 24rem;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#home_page_login_register_buttons_div {
+  width: inherit;
+  height: 2.8rem;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home_page_login_register_buttons {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: transparent;
+  outline: transparent !important;
+}
+
+#home_page_below_login_register_buttons_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 21.2rem;
+}
+
+#home_page_login_button {
+  border-bottom: 2px solid red;
+}
+
+#register_login_form_submit_loader_div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 2;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#register_login_form_submit_loader {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-top: 8px solid green;
+  border-bottom: 8px solid green;
+  border-left: 8px solid orange;
+  border-right: 8px solid orange;
+  border-radius: 50%;
+  -webkit-animation-name: login_register_loader_animation;
+          animation-name: login_register_loader_animation;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes login_register_loader_animation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes login_register_loader_animation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+#verify_otp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: inherit;
+  height: inherit;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+input[placeholder="Enter OTP"] {
+  border-radius: 0px !important;
+  padding: 8px;
+}
+
+#toast {
+  background-color: #d61313;
+  color: white;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 8px 12px;
+  bottom: 24px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+#block_ui {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=style1.css.map */

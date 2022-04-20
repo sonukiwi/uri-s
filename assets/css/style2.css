@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #e4e2e2;
+}
+
+#nav_item_of_navbar {
+  font-weight: bold;
+  color: #4e4d4d;
+}
+
+#white_cover {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  background-image: url("https://flevix.com/wp-content/uploads/2020/01/Bounce-Bar-Preloader-1.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#please_wait {
+  position: absolute;
+  left: 50%;
+  top: 64%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 32px;
+  font-weight: bold;
+  color: #044d04;
+}
+
+#content {
+  display: none;
+}
+
+.btn-success, .btn-danger, .btn-primary {
+  border-radius: 0px !important;
+}
+
+#home_page_login_register {
+  width: 24rem;
+  height: 24rem;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#home_page_login_register_buttons_div {
+  width: inherit;
+  height: 2.8rem;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home_page_login_register_buttons {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: transparent;
+  outline: transparent !important;
+}
+
+#home_page_below_login_register_buttons_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 21.2rem;
+}
+
+#home_page_login_button {
+  border-bottom: 2px solid red;
+}
+
+#register_login_form_submit_loader {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 2;
+}
+/*# sourceMappingURL=style2.css.map */
